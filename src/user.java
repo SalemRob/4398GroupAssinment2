@@ -1,3 +1,3 @@
-public class class {
+public class user {
     
 }
