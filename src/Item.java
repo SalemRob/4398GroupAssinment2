@@ -25,3 +25,33 @@ public class Item {
     public int getCount() { return count; }
     public void setCount(int count) { this.count = count; }
 }
+
+public class Books extends Item {
+    private String author;
+    private String isbn;
+    private boolean bestSeller;
+
+    // Getters and Setters
+    public String getAuthor() { return author; }
+    public void setAuthor(String author) { this.author = author; }
+
+    public String getIsbn() { return isbn; }
+    public void setIsbn(String isbn) { this.isbn = isbn; }
+
+    public boolean isBestSeller() { return bestSeller; }
+    public void setBestSeller(boolean bestSeller) { this.bestSeller = bestSeller; }
+}
+public class AudioVisual extends Item {
+    private String format;
+
+    // Getters and Setters
+    public String getFormat() { return format; }
+    public void setFormat(String format) { this.format = format; }
+}
+public class MagazineReferenceBooks extends Item {
+    private String format;
+
+    // Getters and Setters
+    public String getFormat() { return format; }
+    public void setFormat(String format) { this.format = format; }
+}
