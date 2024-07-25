@@ -1,4 +1,6 @@
-public class AudioVisual extends Item {
+package lms;
+
+public class MagazineReferenceBooks extends Item {
     private String format;
 
     // Getters and Setters

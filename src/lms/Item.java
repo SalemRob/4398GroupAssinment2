@@ -1,10 +1,12 @@
+package lms;
+
 public class Item {
     private String itemID;
     private String name;
-    private int checkoutLength;
     private String status;
     private double price;
     private int count;
+    private int checkoutLength; // in days
 
     // Getters and Setters
     public String getItemID() { return itemID; }
@@ -12,9 +14,6 @@ public class Item {
 
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
-
-    public int getCheckoutLength() { return checkoutLength; }
-    public void setCheckoutLength(int checkoutLength) { this.checkoutLength = checkoutLength; }
 
     public String getStatus() { return status; }
     public void setStatus(String status) { this.status = status; }
@@ -24,5 +23,7 @@ public class Item {
 
     public int getCount() { return count; }
     public void setCount(int count) { this.count = count; }
-}
 
+    public int getCheckoutLength() { return checkoutLength; }
+    public void setCheckoutLength(int checkoutLength) { this.checkoutLength = checkoutLength; }
+}
