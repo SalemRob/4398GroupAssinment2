@@ -38,7 +38,7 @@ public class Main {
                 av.setStatus(row.get(3));
                 av.setPrice(Double.parseDouble(row.get(4)));
                 av.setCount(Integer.parseInt(row.get(5)));
-                av.setFormat(row.get(9));
+                av.setFormat(row.get(6));
                 items.add(av);
             }
         }
@@ -73,22 +73,24 @@ public class Main {
             System.out.println("*************************  Welcome to the Library System  ************************");
             System.out.println("Please select your login type: \n (1) Staff Member \n (2) Library Member");
             System.out.println("**********************************************************************************");
+            System.out.print(">>> ");
             // Login Prompt
 
             String loginType = scanner.nextLine().trim();
 
             if (loginType.equals("1")) {
                 // Staff Login
-                System.out.println("Enter Staff Password: ");
+                System.out.print("Enter Staff Password: ");
                 String staffPassword = scanner.nextLine();
 
-                if (staffPassword.equals("1111")) {
+                if (staffPassword.equals("1")) {
                     // Staff Menu
                     System.out.println("Staff Login Successful!");
                     System.out.println("**********************************************************************************");
                     System.out.println("Available commands: \n(1) add item \n(6) list or items " +
                             "\n(7) list of members \n(X) exit system");
                     System.out.println("**********************************************************************************");
+                    System.out.print(">>>");
 
                     while (true) {
                         System.out.print(">>> ");
@@ -253,21 +255,24 @@ public class Main {
                         command = scanner.nextLine().trim().toLowerCase();
 
                         switch (command) {
-                            case "2":
+                            case "I":
+                            case "i":
                                 System.out.println("Enter item ID to checkout:");
                                 String itemId = scanner.nextLine();
                                 // Add logic to checkout item
                                 // Example: currentMember.checkoutItem(item);
                                 break;
 
-                            case "3":
+                            case "r":
+                            case "R":
                                 System.out.println("Enter item ID to return:");
                                 String returnItemId = scanner.nextLine();
                                 // Add logic to return item
                                 // Example: currentMember.returnItem(returnItemId);
                                 break;
 
-                            case "4":
+                            case "n":
+                            case "N":
                                 System.out.println("Enter item ID to renew:");
                                 String renewItemId = scanner.nextLine();
                                 // Add logic to renew item
