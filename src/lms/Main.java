@@ -69,25 +69,29 @@ public class Main {
         String command;
 
         while (true) {
+            System.out.println("\n");
             System.out.println("*************************  Welcome to the Library System  ************************");
+            System.out.println("Please select your login type: \n (1) Staff Member \n (2) Library Member");
             System.out.println("**********************************************************************************");
             // Login Prompt
-            System.out.println("Please select your login type: (1) Staff, (2) Member");
+
             String loginType = scanner.nextLine().trim();
 
             if (loginType.equals("1")) {
                 // Staff Login
-                System.out.println("Enter Staff Password:");
-                String staffPassword = scanner.nextLine().trim();
+                System.out.println("Enter Staff Password: ");
+                String staffPassword = scanner.nextLine();
+
                 if (staffPassword.equals("1111")) {
                     // Staff Menu
                     System.out.println("Staff Login Successful!");
                     System.out.println("**********************************************************************************");
-                    System.out.println("Available commands: \n(1) add, \n(6) list, \n(7) listmembers, \n(X) exit");
+                    System.out.println("Available commands: \n(1) add item \n(6) list or items " +
+                            "\n(7) list of members \n(X) exit system");
                     System.out.println("**********************************************************************************");
 
                     while (true) {
-                        System.out.print("> ");
+                        System.out.print(">>> ");
                         command = scanner.nextLine().trim().toLowerCase();
 
                         switch (command) {
