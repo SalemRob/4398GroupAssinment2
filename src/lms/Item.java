@@ -1,12 +1,12 @@
 package lms;
 
-public class Item {
+public abstract class Item {
     private String itemID;
     private String name;
     private String status;
     private double price;
     private int count;
-    private int checkoutLength; // in days
+    private boolean renewed = false; // Add this property
 
     // Getters and Setters
     public String getItemID() { return itemID; }
@@ -24,6 +24,6 @@ public class Item {
     public int getCount() { return count; }
     public void setCount(int count) { this.count = count; }
 
-    public int getCheckoutLength() { return checkoutLength; }
-    public void setCheckoutLength(int checkoutLength) { this.checkoutLength = checkoutLength; }
+    public boolean isRenewed() { return renewed; }
+    public void setRenewed(boolean renewed) { this.renewed = renewed; }
 }

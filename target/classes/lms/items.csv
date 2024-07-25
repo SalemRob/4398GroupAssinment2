@@ -1,201 +1,102 @@
-Type,ItemID,Name,Status,Price,Count,Author,Isbn,BestSeller,Format
-Book,B001,Book Title 1,Checked Out,45.95,2,Author Name 1,978-0-8139784-5,false
-Book,B002,Book Title 2,Checked Out,43.79,9,Author Name 2,978-0-1453212-5,false
-Book,B003,Book Title 3,Checked Out,44.03,7,Author Name 3,978-0-1948994-5,true
-Book,B004,Book Title 4,Available,42.69,1,Author Name 4,978-0-5207993-2,false
-Book,B005,Book Title 5,Available,30.11,3,Author Name 5,978-0-5770649-2,false
-Book,B006,Book Title 6,Checked Out,28.07,6,Author Name 6,978-0-7753404-5,false
-Book,B007,Book Title 7,Available,30.33,13,Author Name 7,978-0-8084992-2,false
-Book,B008,Book Title 8,Checked Out,34.6,9,Author Name 8,978-0-4370037-2,false
-Book,B009,Book Title 9,Checked Out,33.55,2,Author Name 9,978-0-4312379-6,false
-Book,B010,Book Title 10,Checked Out,21.97,8,Author Name 10,978-0-8021055-0,true
-Book,B011,Book Title 11,Available,27.57,8,Author Name 11,978-0-7877694-4,false
-Book,B012,Book Title 12,Checked Out,48.04,5,Author Name 12,978-0-5401263-5,true
-Book,B013,Book Title 13,Checked Out,42.05,7,Author Name 13,978-0-9432180-4,false
-Book,B014,Book Title 14,Checked Out,48.85,14,Author Name 14,978-0-4247649-8,true
-Book,B015,Book Title 15,Available,23.1,6,Author Name 15,978-0-8775558-1,true
-Book,B016,Book Title 16,Checked Out,23.66,8,Author Name 16,978-0-2642308-5,true
-Book,B017,Book Title 17,Checked Out,43.71,1,Author Name 17,978-0-6915300-3,true
-Book,B018,Book Title 18,Available,38.1,9,Author Name 18,978-0-9149857-7,false
-Book,B019,Book Title 19,Checked Out,29.13,11,Author Name 19,978-0-8051454-3,true
-Book,B020,Book Title 20,Available,21.48,2,Author Name 20,978-0-8356656-9,true
-Book,B021,Book Title 21,Checked Out,48.89,1,Author Name 21,978-0-9655600-8,false
-Book,B022,Book Title 22,Checked Out,19.22,8,Author Name 22,978-0-2621796-5,false
-Book,B023,Book Title 23,Checked Out,22.65,19,Author Name 23,978-0-1831089-5,false
-Book,B024,Book Title 24,Available,31.04,16,Author Name 24,978-0-9183008-6,true
-Book,B025,Book Title 25,Available,13.83,4,Author Name 25,978-0-7401299-6,false
-Book,B026,Book Title 26,Available,40.68,19,Author Name 26,978-0-2850970-9,true
-Book,B027,Book Title 27,Available,16.6,1,Author Name 27,978-0-7617743-8,true
-Book,B028,Book Title 28,Available,29.12,16,Author Name 28,978-0-5831450-1,false
-Book,B029,Book Title 29,Checked Out,37.21,13,Author Name 29,978-0-8537599-7,false
-Book,B030,Book Title 30,Available,44.03,10,Author Name 30,978-0-1924184-3,true
-Book,B031,Book Title 31,Checked Out,17.61,17,Author Name 31,978-0-9362236-0,true
-Book,B032,Book Title 32,Available,47.9,14,Author Name 32,978-0-7380152-4,true
-Book,B033,Book Title 33,Checked Out,34.34,11,Author Name 33,978-0-3276519-0,true
-Book,B034,Book Title 34,Available,32.93,12,Author Name 34,978-0-2771620-8,false
-Book,B035,Book Title 35,Available,45.96,12,Author Name 35,978-0-4958208-1,true
-Book,B036,Book Title 36,Available,25.2,2,Author Name 36,978-0-8551164-2,true
-Book,B037,Book Title 37,Checked Out,20.8,3,Author Name 37,978-0-6933516-8,true
-Book,B038,Book Title 38,Available,44.11,18,Author Name 38,978-0-5832515-7,false
-Book,B039,Book Title 39,Available,26.9,14,Author Name 39,978-0-9306640-5,true
-Book,B040,Book Title 40,Checked Out,49.22,20,Author Name 40,978-0-4679585-2,true
-Book,B041,Book Title 41,Available,23.04,16,Author Name 41,978-0-4471422-3,false
-Book,B042,Book Title 42,Checked Out,39.51,15,Author Name 42,978-0-9301448-0,false
-Book,B043,Book Title 43,Checked Out,35.04,8,Author Name 43,978-0-8519356-7,true
-Book,B044,Book Title 44,Checked Out,46.06,16,Author Name 44,978-0-8697522-4,true
-Book,B045,Book Title 45,Available,34.27,20,Author Name 45,978-0-6320887-9,true
-Book,B046,Book Title 46,Checked Out,27.92,16,Author Name 46,978-0-8451534-5,false
-Book,B047,Book Title 47,Checked Out,15.39,13,Author Name 47,978-0-9972976-2,false
-Book,B048,Book Title 48,Checked Out,26.99,2,Author Name 48,978-0-1562160-2,false
-Book,B049,Book Title 49,Checked Out,38.12,6,Author Name 49,978-0-2872771-5,true
-Book,B050,Book Title 50,Available,24.64,15,Author Name 50,978-0-9819427-6,true
-Book,B051,Book Title 51,Checked Out,39.27,14,Author Name 51,978-0-1102165-1,false
-Book,B052,Book Title 52,Checked Out,41.55,1,Author Name 52,978-0-8780700-4,false
-Book,B053,Book Title 53,Available,23.81,14,Author Name 53,978-0-8378879-3,false
-Book,B054,Book Title 54,Checked Out,49.6,16,Author Name 54,978-0-2754128-9,true
-Book,B055,Book Title 55,Checked Out,36.16,8,Author Name 55,978-0-6072828-0,true
-Book,B056,Book Title 56,Available,34.68,9,Author Name 56,978-0-5321901-6,true
-Book,B057,Book Title 57,Available,33.41,2,Author Name 57,978-0-8572254-6,true
-Book,B058,Book Title 58,Available,18.86,15,Author Name 58,978-0-3127441-1,true
-Book,B059,Book Title 59,Available,22.93,13,Author Name 59,978-0-4093758-2,true
-Book,B060,Book Title 60,Checked Out,33.73,14,Author Name 60,978-0-6248679-7,false
-Book,B061,Book Title 61,Checked Out,27.78,3,Author Name 61,978-0-1165420-4,true
-Book,B062,Book Title 62,Checked Out,33.68,17,Author Name 62,978-0-7096645-7,false
-Book,B063,Book Title 63,Available,19.68,13,Author Name 63,978-0-4084587-9,true
-Book,B064,Book Title 64,Checked Out,48.6,9,Author Name 64,978-0-2650149-3,true
-Book,B065,Book Title 65,Checked Out,38.0,15,Author Name 65,978-0-3674574-1,true
-Book,B066,Book Title 66,Checked Out,20.42,20,Author Name 66,978-0-4169679-5,true
-Book,B067,Book Title 67,Checked Out,32.12,12,Author Name 67,978-0-3125904-9,true
-Book,B068,Book Title 68,Available,33.0,4,Author Name 68,978-0-9382635-7,true
-Book,B069,Book Title 69,Checked Out,23.72,10,Author Name 69,978-0-6451129-5,true
-Book,B070,Book Title 70,Checked Out,34.67,15,Author Name 70,978-0-2864258-7,true
-Book,B071,Book Title 71,Checked Out,45.21,17,Author Name 71,978-0-1308011-1,true
-Book,B072,Book Title 72,Available,39.49,4,Author Name 72,978-0-7808207-5,true
-Book,B073,Book Title 73,Checked Out,13.49,19,Author Name 73,978-0-9290959-0,false
-Book,B074,Book Title 74,Checked Out,35.86,19,Author Name 74,978-0-2057022-8,true
-Book,B075,Book Title 75,Available,19.4,10,Author Name 75,978-0-7516890-6,false
-Book,B076,Book Title 76,Checked Out,15.64,4,Author Name 76,978-0-6669550-2,true
-Book,B077,Book Title 77,Checked Out,45.3,17,Author Name 77,978-0-6117378-4,false
-Book,B078,Book Title 78,Available,26.8,17,Author Name 78,978-0-6485612-3,true
-Book,B079,Book Title 79,Checked Out,15.39,3,Author Name 79,978-0-2991018-0,false
-Book,B080,Book Title 80,Available,35.51,10,Author Name 80,978-0-9190898-6,true
-Book,B081,Book Title 81,Checked Out,22.3,5,Author Name 81,978-0-7114786-7,true
-Book,B082,Book Title 82,Available,44.49,1,Author Name 82,978-0-5381920-1,false
-Book,B083,Book Title 83,Available,11.96,5,Author Name 83,978-0-7026421-6,false
-Book,B084,Book Title 84,Available,28.01,18,Author Name 84,978-0-4758745-7,false
-Book,B085,Book Title 85,Checked Out,22.48,19,Author Name 85,978-0-3998715-3,false
-Book,B086,Book Title 86,Available,39.55,11,Author Name 86,978-0-4190798-9,false
-Book,B087,Book Title 87,Checked Out,33.41,20,Author Name 87,978-0-7241544-4,false
-Book,B088,Book Title 88,Available,28.6,17,Author Name 88,978-0-8342474-0,true
-Book,B089,Book Title 89,Checked Out,37.46,1,Author Name 89,978-0-8203071-6,false
-Book,B090,Book Title 90,Checked Out,31.42,2,Author Name 90,978-0-4827347-0,false
-Book,B091,Book Title 91,Available,34.09,4,Author Name 91,978-0-5560091-9,false
-Book,B092,Book Title 92,Checked Out,16.65,8,Author Name 92,978-0-4949294-3,true
-Book,B093,Book Title 93,Checked Out,34.62,12,Author Name 93,978-0-3092725-0,false
-Book,B094,Book Title 94,Checked Out,29.71,2,Author Name 94,978-0-6140685-2,true
-Book,B095,Book Title 95,Checked Out,29.33,9,Author Name 95,978-0-3525031-0,true
-Book,B096,Book Title 96,Checked Out,48.3,17,Author Name 96,978-0-2045059-6,false
-Book,B097,Book Title 97,Checked Out,22.47,2,Author Name 97,978-0-2966532-4,true
-Book,B098,Book Title 98,Checked Out,32.91,6,Author Name 98,978-0-2108895-7,false
-Book,B099,Book Title 99,Available,48.98,5,Author Name 99,978-0-2792079-2,true
-Book,B100,Book Title 100,Available,25.35,4,Author Name 100,978-0-9834489-3,true
-AudioVisual,AV001,Movie Title 1,Available,12.31,2,Digital
-AudioVisual,AV002,Movie Title 2,Checked Out,27.68,7,Blu-ray
-AudioVisual,AV003,Movie Title 3,Checked Out,24.02,1,Digital
-AudioVisual,AV004,Movie Title 4,Checked Out,10.79,7,Digital
-AudioVisual,AV005,Movie Title 5,Available,22.65,4,Blu-ray
-AudioVisual,AV006,Movie Title 6,Available,22.01,3,DVD
-AudioVisual,AV007,Movie Title 7,Available,29.97,4,DVD
-AudioVisual,AV008,Movie Title 8,Available,10.2,1,DVD
-AudioVisual,AV009,Movie Title 9,Available,25.72,2,Blu-ray
-AudioVisual,AV010,Movie Title 10,Checked Out,29.26,6,Blu-ray
-AudioVisual,AV011,Movie Title 11,Available,7.06,8,DVD
-AudioVisual,AV012,Movie Title 12,Checked Out,24.45,4,Blu-ray
-AudioVisual,AV013,Movie Title 13,Available,22.75,6,Digital
-AudioVisual,AV014,Movie Title 14,Checked Out,24.76,4,DVD
-AudioVisual,AV015,Movie Title 15,Checked Out,26.63,5,DVD
-AudioVisual,AV016,Movie Title 16,Available,12.95,3,DVD
-AudioVisual,AV017,Movie Title 17,Checked Out,15.48,2,Digital
-AudioVisual,AV018,Movie Title 18,Checked Out,10.66,7,Digital
-AudioVisual,AV019,Movie Title 19,Available,18.74,7,Blu-ray
-AudioVisual,AV020,Movie Title 20,Available,17.25,7,DVD
-AudioVisual,AV021,Movie Title 21,Available,22.61,3,DVD
-AudioVisual,AV022,Movie Title 22,Checked Out,5.8,10,Digital
-AudioVisual,AV023,Movie Title 23,Available,18.54,10,Blu-ray
-AudioVisual,AV024,Movie Title 24,Available,18.15,10,DVD
-AudioVisual,AV025,Movie Title 25,Available,6.18,7,Blu-ray
-AudioVisual,AV026,Movie Title 26,Available,19.1,6,DVD
-AudioVisual,AV027,Movie Title 27,Available,22.3,4,Digital
-AudioVisual,AV028,Movie Title 28,Available,15.43,7,Digital
-AudioVisual,AV029,Movie Title 29,Checked Out,20.15,4,DVD
-AudioVisual,AV030,Movie Title 30,Available,24.07,4,DVD
-AudioVisual,AV031,Movie Title 31,Checked Out,29.54,10,Blu-ray
-AudioVisual,AV032,Movie Title 32,Checked Out,16.69,8,Blu-ray
-AudioVisual,AV033,Movie Title 33,Checked Out,20.39,5,DVD
-AudioVisual,AV034,Movie Title 34,Available,7.98,10,DVD
-AudioVisual,AV035,Movie Title 35,Checked Out,29.12,2,Blu-ray
-AudioVisual,AV036,Movie Title 36,Checked Out,11.99,9,Digital
-AudioVisual,AV037,Movie Title 37,Checked Out,7.59,9,Blu-ray
-AudioVisual,AV038,Movie Title 38,Checked Out,23.59,5,Digital
-AudioVisual,AV039,Movie Title 39,Available,7.45,2,Digital
-AudioVisual,AV040,Movie Title 40,Available,14.54,3,Blu-ray
-AudioVisual,AV041,Movie Title 41,Available,14.55,8,Digital
-AudioVisual,AV042,Movie Title 42,Available,26.44,7,Blu-ray
-AudioVisual,AV043,Movie Title 43,Checked Out,10.24,10,Digital
-AudioVisual,AV044,Movie Title 44,Checked Out,20.35,1,Blu-ray
-AudioVisual,AV045,Movie Title 45,Available,8.27,7,Blu-ray
-AudioVisual,AV046,Movie Title 46,Checked Out,9.81,3,Blu-ray
-AudioVisual,AV047,Movie Title 47,Available,27.3,1,Digital
-AudioVisual,AV048,Movie Title 48,Available,20.58,5,DVD
-AudioVisual,AV049,Movie Title 49,Available,18.81,2,DVD
-AudioVisual,AV050,Movie Title 50,Checked Out,10.52,10,DVD
-AudioVisual,AV051,Movie Title 51,Checked Out,10.19,2,Blu-ray
-AudioVisual,AV052,Movie Title 52,Available,18.55,8,Blu-ray
-AudioVisual,AV053,Movie Title 53,Checked Out,11.23,8,Blu-ray
-AudioVisual,AV054,Movie Title 54,Available,22.23,3,Blu-ray
-AudioVisual,AV055,Movie Title 55,Available,25.29,7,DVD
-AudioVisual,AV056,Movie Title 56,Checked Out,8.75,9,DVD
-AudioVisual,AV057,Movie Title 57,Available,14.36,7,Blu-ray
-AudioVisual,AV058,Movie Title 58,Checked Out,5.51,4,DVD
-AudioVisual,AV059,Movie Title 59,Available,22.02,8,Blu-ray
-AudioVisual,AV060,Movie Title 60,Checked Out,8.16,3,Digital
-AudioVisual,AV061,Movie Title 61,Available,15.21,1,Digital
-AudioVisual,AV062,Movie Title 62,Checked Out,12.06,7,Blu-ray
-AudioVisual,AV063,Movie Title 63,Checked Out,20.37,1,Blu-ray
-AudioVisual,AV064,Movie Title 64,Checked Out,22.72,7,DVD
-AudioVisual,AV065,Movie Title 65,Available,27.63,9,Blu-ray
-AudioVisual,AV066,Movie Title 66,Checked Out,25.07,5,DVD
-AudioVisual,AV067,Movie Title 67,Available,19.05,7,Digital
-AudioVisual,AV068,Movie Title 68,Available,8.17,8,DVD
-AudioVisual,AV069,Movie Title 69,Available,11.3,8,DVD
-AudioVisual,AV070,Movie Title 70,Checked Out,11.92,10,Blu-ray
-AudioVisual,AV071,Movie Title 71,Available,26.81,1,DVD
-AudioVisual,AV072,Movie Title 72,Checked Out,19.66,9,Digital
-AudioVisual,AV073,Movie Title 73,Checked Out,15.71,5,Blu-ray
-AudioVisual,AV074,Movie Title 74,Checked Out,9.53,4,Digital
-AudioVisual,AV075,Movie Title 75,Available,12.86,1,Digital
-AudioVisual,AV076,Movie Title 76,Checked Out,9.33,7,Digital
-AudioVisual,AV077,Movie Title 77,Checked Out,17.52,6,Blu-ray
-AudioVisual,AV078,Movie Title 78,Available,12.38,5,DVD
-AudioVisual,AV079,Movie Title 79,Checked Out,27.65,2,DVD
-AudioVisual,AV080,Movie Title 80,Checked Out,26.59,2,Blu-ray
-AudioVisual,AV081,Movie Title 81,Available,11.71,10,Blu-ray
-AudioVisual,AV082,Movie Title 82,Checked Out,24.35,7,DVD
-AudioVisual,AV083,Movie Title 83,Available,11.6,2,Blu-ray
-AudioVisual,AV084,Movie Title 84,Checked Out,7.14,5,DVD
-AudioVisual,AV085,Movie Title 85,Checked Out,12.08,10,Blu-ray
-AudioVisual,AV086,Movie Title 86,Checked Out,29.55,8,Digital
-AudioVisual,AV087,Movie Title 87,Available,9.27,1,DVD
-AudioVisual,AV088,Movie Title 88,Checked Out,17.84,7,DVD
-AudioVisual,AV089,Movie Title 89,Checked Out,26.78,4,Blu-ray
-AudioVisual,AV090,Movie Title 90,Checked Out,10.51,5,DVD
-AudioVisual,AV091,Movie Title 91,Available,29.09,8,DVD
-AudioVisual,AV092,Movie Title 92,Checked Out,22.33,5,DVD
-AudioVisual,AV093,Movie Title 93,Checked Out,24.33,6,Blu-ray
-AudioVisual,AV094,Movie Title 94,Checked Out,28.39,3,Blu-ray
-AudioVisual,AV095,Movie Title 95,Available,15.73,9,Digital
-AudioVisual,AV096,Movie Title 96,Checked Out,14.68,5,Blu-ray
-AudioVisual,AV097,Movie Title 97,Checked Out,28.64,3,Digital
-AudioVisual,AV098,Movie Title 98,Available,16.59,8,DVD
-AudioVisual,AV099,Movie Title 99,Checked Out,26.12,4,DVD
-AudioVisual,AV100,Movie Title 100,Available,13.27,9,DVD
+"Type","ItemID","Name","Status","Price","Count","Author","Isbn","BestSeller","Format"
+"Book","B001","Book Title 1","Checked Out","45.95","2","Author Name 1","978-0-8139784-5","false"
+"Book","B002","Book Title 2","Checked Out","43.79","9","Author Name 2","978-0-1453212-5","false"
+"Book","B003","Book Title 3","Checked Out","44.03","7","Author Name 3","978-0-1948994-5","true"
+"Book","B004","Book Title 4","Available","42.69","1","Author Name 4","978-0-5207993-2","false"
+"Book","B005","Book Title 5","Available","30.11","3","Author Name 5","978-0-5770649-2","false"
+"Book","B006","Book Title 6","Checked Out","28.07","6","Author Name 6","978-0-7753404-5","false"
+"Book","B007","Book Title 7","Available","30.33","13","Author Name 7","978-0-8084992-2","false"
+"Book","B008","Book Title 8","Checked Out","34.6","9","Author Name 8","978-0-4370037-2","false"
+"Book","B009","Book Title 9","Checked Out","33.55","2","Author Name 9","978-0-4312379-6","false"
+"Book","B010","Book Title 10","Checked Out","21.97","8","Author Name 10","978-0-8021055-0","true"
+"Book","B011","Book Title 11","Available","27.57","8","Author Name 11","978-0-7877694-4","false"
+"Book","B012","Book Title 12","Checked Out","48.04","5","Author Name 12","978-0-5401263-5","true"
+"Book","B013","Book Title 13","Checked Out","42.05","7","Author Name 13","978-0-9432180-4","false"
+"Book","B014","Book Title 14","Checked Out","48.85","14","Author Name 14","978-0-4247649-8","true"
+"Book","B015","Book Title 15","Available","23.1","6","Author Name 15","978-0-8775558-1","true"
+"Book","B016","Book Title 16","Checked Out","23.66","8","Author Name 16","978-0-2642308-5","true"
+"Book","B017","Book Title 17","Checked Out","43.71","1","Author Name 17","978-0-6915300-3","true"
+"Book","B018","Book Title 18","Available","38.1","9","Author Name 18","978-0-9149857-7","false"
+"Book","B019","Book Title 19","Checked Out","29.13","11","Author Name 19","978-0-8051454-3","true"
+"Book","B020","Book Title 20","Available","21.48","2","Author Name 20","978-0-8356656-9","true"
+"Book","B021","Book Title 21","Checked Out","48.89","1","Author Name 21","978-0-9655600-8","false"
+"Book","B022","Book Title 22","Checked Out","19.22","8","Author Name 22","978-0-2621796-5","false"
+"Book","B023","Book Title 23","Checked Out","22.65","19","Author Name 23","978-0-1831089-5","false"
+"Book","B024","Book Title 24","Available","31.04","16","Author Name 24","978-0-9183008-6","true"
+"Book","B025","Book Title 25","Available","13.83","4","Author Name 25","978-0-7401299-6","false"
+"Book","B026","Book Title 26","Available","40.68","19","Author Name 26","978-0-2850970-9","true"
+"Book","B027","Book Title 27","Available","16.6","1","Author Name 27","978-0-7617743-8","true"
+"Book","B028","Book Title 28","Available","29.12","16","Author Name 28","978-0-5831450-1","false"
+"Book","B029","Book Title 29","Checked Out","37.21","13","Author Name 29","978-0-8537599-7","false"
+"Book","B030","Book Title 30","Available","44.03","10","Author Name 30","978-0-1924184-3","true"
+"Book","B031","Book Title 31","Checked Out","17.61","17","Author Name 31","978-0-9362236-0","true"
+"Book","B032","Book Title 32","Available","47.9","14","Author Name 32","978-0-7380152-4","true"
+"Book","B033","Book Title 33","Checked Out","34.34","11","Author Name 33","978-0-3276519-0","true"
+"Book","B034","Book Title 34","Available","32.93","12","Author Name 34","978-0-2771620-8","false"
+"Book","B035","Book Title 35","Available","45.96","12","Author Name 35","978-0-4958208-1","true"
+"Book","B036","Book Title 36","Available","25.2","2","Author Name 36","978-0-8551164-2","true"
+"Book","B037","Book Title 37","Checked Out","20.8","3","Author Name 37","978-0-6933516-8","true"
+"Book","B038","Book Title 38","Available","44.11","18","Author Name 38","978-0-5832515-7","false"
+"Book","B039","Book Title 39","Available","26.9","14","Author Name 39","978-0-9306640-5","true"
+"Book","B040","Book Title 40","Checked Out","49.22","20","Author Name 40","978-0-4679585-2","true"
+"Book","B041","Book Title 41","Available","23.04","16","Author Name 41","978-0-4471422-3","false"
+"Book","B042","Book Title 42","Checked Out","39.51","15","Author Name 42","978-0-9301448-0","false"
+"Book","B043","Book Title 43","Checked Out","35.04","8","Author Name 43","978-0-8519356-7","true"
+"Book","B044","Book Title 44","Checked Out","46.06","16","Author Name 44","978-0-8697522-4","true"
+"Book","B045","Book Title 45","Available","34.27","20","Author Name 45","978-0-6320887-9","true"
+"Book","B046","Book Title 46","Checked Out","27.92","16","Author Name 46","978-0-8451534-5","false"
+"Book","B047","Book Title 47","Checked Out","15.39","13","Author Name 47","978-0-9972976-2","false"
+"Book","B048","Book Title 48","Checked Out","26.99","2","Author Name 48","978-0-1562160-2","false"
+"Book","B049","Book Title 49","Checked Out","38.12","6","Author Name 49","978-0-2872771-5","true"
+"Book","B050","Book Title 50","Available","24.64","15","Author Name 50","978-0-9819427-6","true"
+"Book","B051","Book Title 51","Checked Out","39.27","14","Author Name 51","978-0-1102165-1","false"
+"Book","B052","Book Title 52","Checked Out","41.55","1","Author Name 52","978-0-8780700-4","false"
+"Book","B053","Book Title 53","Available","23.81","14","Author Name 53","978-0-8378879-3","false"
+"Book","B054","Book Title 54","Checked Out","49.6","16","Author Name 54","978-0-2754128-9","true"
+"Book","B055","Book Title 55","Checked Out","36.16","8","Author Name 55","978-0-6072828-0","true"
+"Book","B056","Book Title 56","Available","34.68","9","Author Name 56","978-0-5321901-6","true"
+"Book","B057","Book Title 57","Available","33.41","2","Author Name 57","978-0-8572254-6","true"
+"Book","B058","Book Title 58","Available","18.86","15","Author Name 58","978-0-3127441-1","true"
+"Book","B059","Book Title 59","Available","22.93","13","Author Name 59","978-0-4093758-2","true"
+"Book","B060","Book Title 60","Checked Out","33.73","14","Author Name 60","978-0-6248679-7","false"
+"Book","B061","Book Title 61","Checked Out","27.78","3","Author Name 61","978-0-1165420-4","true"
+"Book","B062","Book Title 62","Checked Out","33.68","17","Author Name 62","978-0-7096645-7","false"
+"Book","B063","Book Title 63","Available","19.68","13","Author Name 63","978-0-4084587-9","true"
+"Book","B064","Book Title 64","Checked Out","48.6","9","Author Name 64","978-0-2650149-3","true"
+"Book","B065","Book Title 65","Checked Out","38.0","15","Author Name 65","978-0-3674574-1","true"
+"Book","B066","Book Title 66","Checked Out","20.42","20","Author Name 66","978-0-4169679-5","true"
+"Book","B067","Book Title 67","Checked Out","32.12","12","Author Name 67","978-0-3125904-9","true"
+"Book","B068","Book Title 68","Available","33.0","4","Author Name 68","978-0-9382635-7","true"
+"Book","B069","Book Title 69","Checked Out","23.72","10","Author Name 69","978-0-6451129-5","true"
+"Book","B070","Book Title 70","Checked Out","34.67","15","Author Name 70","978-0-2864258-7","true"
+"Book","B071","Book Title 71","Checked Out","45.21","17","Author Name 71","978-0-1308011-1","true"
+"Book","B072","Book Title 72","Available","39.49","4","Author Name 72","978-0-7808207-5","true"
+"Book","B073","Book Title 73","Checked Out","13.49","19","Author Name 73","978-0-9290959-0","false"
+"Book","B074","Book Title 74","Checked Out","35.86","19","Author Name 74","978-0-2057022-8","true"
+"Book","B075","Book Title 75","Available","19.4","10","Author Name 75","978-0-7516890-6","false"
+"Book","B076","Book Title 76","Checked Out","15.64","4","Author Name 76","978-0-6669550-2","true"
+"Book","B077","Book Title 77","Checked Out","45.3","17","Author Name 77","978-0-6117378-4","false"
+"Book","B078","Book Title 78","Available","26.8","17","Author Name 78","978-0-6485612-3","true"
+"Book","B079","Book Title 79","Checked Out","15.39","3","Author Name 79","978-0-2991018-0","false"
+"Book","B080","Book Title 80","Available","35.51","10","Author Name 80","978-0-9190898-6","true"
+"Book","B081","Book Title 81","Checked Out","22.3","5","Author Name 81","978-0-7114786-7","true"
+"Book","B082","Book Title 82","Available","44.49","1","Author Name 82","978-0-5381920-1","false"
+"Book","B083","Book Title 83","Available","11.96","5","Author Name 83","978-0-7026421-6","false"
+"Book","B084","Book Title 84","Available","28.01","18","Author Name 84","978-0-4758745-7","false"
+"Book","B085","Book Title 85","Checked Out","22.48","19","Author Name 85","978-0-3998715-3","false"
+"Book","B086","Book Title 86","Available","39.55","11","Author Name 86","978-0-4190798-9","false"
+"Book","B087","Book Title 87","Checked Out","33.41","20","Author Name 87","978-0-7241544-4","false"
+"Book","B088","Book Title 88","Available","28.6","17","Author Name 88","978-0-8342474-0","true"
+"Book","B089","Book Title 89","Checked Out","37.46","1","Author Name 89","978-0-8203071-6","false"
+"Book","B090","Book Title 90","Checked Out","31.42","2","Author Name 90","978-0-4827347-0","false"
+"Book","B091","Book Title 91","Available","34.09","4","Author Name 91","978-0-5560091-9","false"
+"Book","B092","Book Title 92","Checked Out","16.65","8","Author Name 92","978-0-4949294-3","true"
+"Book","B093","Book Title 93","Checked Out","34.62","12","Author Name 93","978-0-3092725-0","false"
+"Book","B094","Book Title 94","Checked Out","29.71","2","Author Name 94","978-0-6140685-2","true"
+"Book","B095","Book Title 95","Checked Out","29.33","9","Author Name 95","978-0-3525031-0","true"
+"Book","B096","Book Title 96","Checked Out","48.3","17","Author Name 96","978-0-2045059-6","false"
+"Book","B097","Book Title 97","Checked Out","22.47","2","Author Name 97","978-0-2966532-4","true"
+"Book","B098","Book Title 98","Checked Out","32.91","6","Author Name 98","978-0-2108895-7","false"
+"Book","B099","Book Title 99","Available","48.98","5","Author Name 99","978-0-2792079-2","true"
+"Book","B100","Book Title 100","Available","25.35","4","Author Name 100","978-0-9834489-3","true"
+
