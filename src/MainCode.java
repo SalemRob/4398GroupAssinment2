@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class MainCode {
     public static void main(String[] args) {
         // Initialize library and items
         Library library = new Library();
