@@ -3,7 +3,7 @@ package lms;
 public abstract class Item {
     private String itemID;
     private String name;
-    private String status;
+    private boolean isCheckkedOut = false;
     private double price;
     private int count;
     private boolean renewed = false; // Add this property
@@ -15,8 +15,6 @@ public abstract class Item {
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
 
-    public String getStatus() { return status; }
-    public void setStatus(String status) { this.status = status; }
 
     public double getPrice() { return price; }
     public void setPrice(double price) { this.price = price; }
@@ -26,4 +24,6 @@ public abstract class Item {
 
     public boolean isRenewed() { return renewed; }
     public void setRenewed(boolean renewed) { this.renewed = renewed; }
+     public boolean isCheckedOut() { return isCheckedout; }
+    public void setRenewed(boolean renewed) { this.isCheckedOut = isCheckedOutd; }
 }
