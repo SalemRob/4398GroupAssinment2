@@ -3,6 +3,7 @@ package lms;
 public abstract class Item {
     private String itemID;
     private String name;
+    private LocalDate dueDate; 
     private boolean isCheckkedOut = false;
     private double price;
     private int count;
@@ -21,6 +22,8 @@ public abstract class Item {
 
     public int getCount() { return count; }
     public void setCount(int count) { this.count = count; }
+    public LocalDate getDate() {return dueDate;}
+    public void setDueDate(LocalDate dueDate){this.dueDate=dueDate;}
 
     public boolean isRenewed() { return renewed; }
     public void setRenewed(boolean renewed) { this.renewed = renewed; }
