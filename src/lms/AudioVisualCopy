@@ -1,0 +1,24 @@
+package lms;
+
+public class AudioVisualCopy {
+	
+	    private Integer audioVisualID;
+	    private boolean audioVisualAvailable;
+
+	    public int getAudioVisualID(){
+	        return audioVisualID;
+	    }
+
+	    public void setAudioVisualID(int audioVisualID){
+	        this.audioVisualID = audioVisualID;
+	    }
+
+	    public boolean getAudioVisualAvailable(){
+	        return audioVisualAvailable;
+	    }
+
+	    public void setAudioVisualAvailable(boolean audioVisualAvailable){
+	        this.audioVisualAvailable = audioVisualAvailable;
+	    }
+
+	}
