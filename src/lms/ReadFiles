@@ -1,0 +1,148 @@
+package lms;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class ReadFiles {
+
+    public static HashMap<String, Books> readBookFile(String filename) {
+        HashMap<String, Books> books = new HashMap<String, Books>();
+
+        try {
+            File f = new File(filename);
+            Scanner input = new Scanner(f);
+            String[] nextBook;
+            while (input.hasNextLine()) {
+                nextBook = input.nextLine().split(",");
+                Books book = new Books(nextBook[0],
+                                     Integer.parseInt(nextBook[1]),
+                                     Double.parseDouble(nextBook[2]), 
+                                     Boolean.parseBoolean(nextBook[3]), 
+                                     Integer.parseInt(nextBook[4]),
+                                     Boolean.parseBoolean(nextBook[5]));
+                books.put(book.getTitle(), book);
+            }
+            input.close();
+        }
+        catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        return books;
+    }
+
+    public static HashMap<String, MagazineReferenceBooks> readRefAndMagFile(String filename) {
+        HashMap<String, MagazineReferenceBooks> items = new HashMap<String, MagazineReferenceBooks>();
+
+        try {
+            File f = new File(filename);
+            Scanner input = new Scanner(f);
+            String[] nextItem;
+            while (input.hasNextLine()) {
+                nextItem = input.nextLine().split(",");
+                MagazineReferenceBooks item = new MagazineReferenceBooks(nextItem[0],
+                                                       Integer.parseInt(nextItem[1]),
+                                                       Double.parseDouble(nextItem[2]), 
+                                                       Boolean.parseBoolean(nextItem[3]), 
+                                                       Integer.parseInt(nextItem[4]));
+                items.put(item.getTitle(), item);
+            }
+            input.close();
+        }
+        catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        return items;
+    }
+
+    public static HashMap<String, AudioVisual> readAudioVideoFile(String filename) {
+        HashMap<String, AudioVisual> avItems = new HashMap<String, AudioVisual>();
+
+        try {
+            File f = new File(filename);
+            Scanner input = new Scanner(f);
+            String[] nextItem;
+            while (input.hasNextLine()) {
+                nextItem = input.nextLine().split(",");
+                AudioVisual avItem = new AudioVisual(nextItem[0],
+                                     Integer.parseInt(nextItem[1]),
+                                     Double.parseDouble(nextItem[2]), 
+                                     Boolean.parseBoolean(nextItem[3]), 
+                                     Integer.parseInt(nextItem[4]));
+                avItems.put(avItem.getTitle(), avItem);
+            }
+            input.close();
+        }
+        catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        return avItems;
+    }
+
+    public static HashMap<String, User> readUserFile(String filename) {
+        HashMap<String, User> users = new HashMap<String, User>();
+
+        try {
+            File f = new File(filename);
+            Scanner input = new Scanner(f);
+            String[] nextUser;
+            while (input.hasNextLine()) {
+                nextUser = input.nextLine().split(",");
+                ArrayList<String[]> checkedOutBooks = new ArrayList<String[]>();
+                ArrayList<String[]> checkedOutAV = new ArrayList<String[]>();
+                if (!nextUser[6].equals("none")) {    
+                    for (String item : nextUser[6].split(";")) {
+                        Collections.addAll(checkedOutBooks, item.split("-"));
+                    }
+                }
+                if (!nextUser[7].equals("none")) {
+                    for (String item : nextUser[7].split(";")) {
+                        Collections.addAll(checkedOutAV, item.split("-"));
+                    }
+                }
+                // Collections.addAll(checkedOutBooks, nextUser[6].split(";"));
+                // Collections.addAll(checkedOutAV, nextUser[7].split(";"));
+                User user = new User(nextUser[0],
+                                     nextUser[1],
+                                     Integer.parseInt(nextUser[2]),
+                                     nextUser[3],
+                                     nextUser[4], 
+                                     Integer.parseInt(nextUser[5]),
+                                     checkedOutBooks,
+                                     checkedOutAV);
+                users.put(user.getPhoneNumber(), user);
+            }
+            input.close();
+        }
+        catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        return users;
+    }
+
+    public static ArrayList<String> readRequests(String filename) {
+        ArrayList<String> requests = new ArrayList<String>();
+
+        try {
+            File f = new File(filename);
+            Scanner input = new Scanner(f);
+            while (input.hasNextLine()) {
+                requests.add(input.nextLine());
+            }
+            input.close();
+        }
+        catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        return requests;
+    }
+
+}
