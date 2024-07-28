@@ -1,0 +1,123 @@
+package lms;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class WriteFile {
+
+    public static void writeBookFile(HashMap<String, Books> books, String filename) {
+
+        try {
+            File file = new File(filename);
+            FileWriter fileWriter = new FileWriter(file);
+            for (String book : books.keySet()) {
+                fileWriter.write(books.get(book).getTitle() + "," +
+                                 books.get(book).getCheckOutLength() + "," +
+                                 books.get(book).getBookPrice() + "," +
+                                 books.get(book).canBeCheckedOut() + "," +
+                                 books.get(book).getCopyNumber() + "," +
+                                 books.get(book).getIsBestSeller() + "\n");
+            }
+            fileWriter.close();
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+    
+    public static void writeAVItemFile(HashMap<String, AudioVisual> avItems, String filename) {
+
+        try {
+            File file = new File(filename);
+            FileWriter fileWriter = new FileWriter(file);
+            for (String avItem : avItems.keySet()) {
+                fileWriter.write(avItems.get(avItem).getTitle() + "," +
+                                 avItems.get(avItem).getCheckOutLength() + "," +
+                                 avItems.get(avItem).getBookPrice() + "," +
+                                 avItems.get(avItem).canBeCheckedOut() + "," +
+                                 avItems.get(avItem).getCopyNumber() + "\n");
+            }
+            fileWriter.close();
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public static void writeRefAndMagFile(HashMap<String, MagazineReferenceBooks> refAndMagItems, String filename) {
+
+        try {
+            File file = new File(filename);
+            FileWriter fileWriter = new FileWriter(file);
+            for (String refAndMagItem : refAndMagItems.keySet()) {
+                fileWriter.write(refAndMagItems.get(refAndMagItem).getTitle() + "," +
+                                 refAndMagItems.get(refAndMagItem).getCheckOutLength() + "," +
+                                 refAndMagItems.get(refAndMagItem).getBookPrice() + "," +
+                                 refAndMagItems.get(refAndMagItem).canBeCheckedOut() + "," +
+                                 refAndMagItems.get(refAndMagItem).getCopyNumber() + "\n");
+            }
+            fileWriter.close();
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public static void writeUserFile(HashMap<String, User> users, String filename) {
+
+        try {
+            File file = new File(filename);
+            FileWriter fileWriter = new FileWriter(file);
+            for (String user : users.keySet()) {
+                fileWriter.write(users.get(user).getLibraryCardNumber() + "," +
+                                 users.get(user).getName() + "," +
+                                 users.get(user).getAge() + "," +
+                                 users.get(user).getAddress() + "," +
+                                 users.get(user).getPhoneNumber() + "," +
+                                 users.get(user).getmaxItem() + ",");
+                if (users.get(user).getCheckedOutBooks().size() > 0) {
+                    for (String[] item : users.get(user).getCheckedOutBooks()) {
+                        fileWriter.write(item[0] + "-" + item[1] + "-" + item[2] + ";");
+                    }
+                }
+                else {
+                    fileWriter.write("none");
+                }
+                fileWriter.write(",");
+                if (users.get(user).getCheckedOutAV().size() > 0) {
+                    for (String[] item : users.get(user).getCheckedOutAV()) {
+                        fileWriter.write(item[0] + "-" + item[1] + "-" + item[2] + ";");
+                    }
+                }
+                else {
+                    fileWriter.write("none");
+                }
+                fileWriter.write("\n");
+            }
+            fileWriter.close();
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public static void writeRequestsFile(ArrayList<String> requestedItems, String filename) {
+        try {
+            File file = new File(filename);
+            FileWriter fileWriter = new FileWriter(file);
+            for (String item : requestedItems) {
+                fileWriter.write(item + "\n");
+            }
+            fileWriter.close();
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+    } 
