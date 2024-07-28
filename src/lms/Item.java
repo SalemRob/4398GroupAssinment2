@@ -8,7 +8,8 @@ public abstract class Item {
     private boolean canBeCheckedOut;
     private int copyNumber;
     private double audioVisualPrice;
-    public Item(String title, int checkOutLength, double bookPrice,double audioVisualPrice, boolean canBeCheckedOut, int copyNumber) {
+    private double magazineRefPrice;
+    public Item(String title, int checkOutLength, double bookPrice,double audioVisualPrice, boolean canBeCheckedOut, int copyNumber,double magazineRefPrice) {
     	this.title = title;
     	this.checkOutLength = checkOutLength;
     	this.bookPrice = bookPrice;
@@ -16,6 +17,7 @@ public abstract class Item {
     	this.copyNumber = copyNumber;
     	this.hasOutstandingRequest = false;
     	this.audioVisualPrice = audioVisualPrice;
+    	this.magazineRefPrice = magazineRefPrice;
     }
     public String getTitle() {
     	return title;
@@ -42,6 +44,12 @@ public abstract class Item {
     }
     public void setAudioVisualPrice(double  audioVisualPrice) {
     	this. audioVisualPrice =  audioVisualPrice;
+    }
+    public double getMagazineRefPrice() {
+    	return magazineRefPrice;
+    }
+    public void setAudioVisualPrice(double  magazineRefPrice;) {
+    	this.magazineRefPrice; =  magazineRefPrice;;
     }
     public void checkOut() {
     	copyNumber --;
@@ -76,7 +84,8 @@ public abstract class Item {
         return ("Title: " + getTitle() + "\n" +
                 "Checkout Length:" + getCheckOutLength() + "\n" +
                 "Price: " + getBookPrice() + "\n" +
-                Price: " + getAudioVisualrice() + "\n" +
+                Price: " + getAudioVisualPrice() + "\n" +
+                Price: " + getMagazineRefPrice() + "\n" +
                 "Can be checked out: " + canBeCheckedOut() + "\n" +
                 "Number of Copies: " + getCopyNumber());
     }
