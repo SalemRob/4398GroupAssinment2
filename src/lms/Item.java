@@ -1,32 +1,77 @@
 package lms;
 
 public abstract class Item {
-    private String itemID;
-    private String name;
-    private LocalDate dueDate; 
-    private boolean isCheckkedOut = false;
-    private double price;
-    private int count;
-    private boolean renewed = false; // Add this property
+    private String title;
+    private int checkOutLength;
+    private double bookPrice;
+    private boolean hasOutstandingRequest;
+    private boolean canBeCheckedOut;
+    private int copyNumber;
+    
+    public Item(String title, int checkOutLength, double bookPrice, boolean canBeCheckedOut, int copyNumber) {
+    	this.title = title;
+    	this.checkOutLength = checkOutLength;
+    	this.bookPrice = bookPrice;
+    	this.canBeCheckedOut = canBeCheckedOut;
+    	this.copyNumber = copyNumber;
+    	this.hasOutstandingRequest = false;
+    }
+    public String getTitle() {
+    	return title;
+    }
+    public void settitle(String title) {
+    	this.title = title;
+    	
+    }
+    public int getCheckOutLength() {
+        return checkOutLength;
+    }
 
-    // Getters and Setters
-    public String getItemID() { return itemID; }
-    public void setItemID(String itemID) { this.itemID = itemID; }
+    public void setCheckOutLength(int checkOutLength) {
+        this.checkOutLength = checkOutLength;
+    }
+    public double getBookPrice() {
+    	return bookPrice;
+    }
+    public void setBookPrice(double bookPrice) {
+    	this.bookPrice = bookPrice;
+    }
+    public void checkOut() {
+    	copyNumber --;
+    }
+    public void checkIn() {
+    	copyNumber++;
+    }
+    public boolean hasOutstandingRequest() {
+    	return hasOutstandingRequest;
+    }
+    public void setHasOutstandingRequest(boolean hasOutstandingRequest) {
+        this.hasOutstandingRequest = hasOutstandingRequest;
+    }
 
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
+    public boolean canBeCheckedOut() {
+        return canBeCheckedOut;
+    }
 
+    public void setcanBeCheckedOut(boolean canBeCheckedOut) {
+        this.canBeCheckedOut = canBeCheckedOut;
+    }
 
-    public double getPrice() { return price; }
-    public void setPrice(double price) { this.price = price; }
+    public int getCopyNumber() {
+        return copyNumber;
+    }
 
-    public int getCount() { return count; }
-    public void setCount(int count) { this.count = count; }
-    public LocalDate getDate() {return dueDate;}
-    public void setDueDate(LocalDate dueDate){this.dueDate=dueDate;}
+    public void setCopyNumber(int copyNumber) {
+        this.copyNumber = copyNumber;
+    }
 
-    public boolean isRenewed() { return renewed; }
-    public void setRenewed(boolean renewed) { this.renewed = renewed; }
-     public boolean isCheckedOut() { return isCheckedout; }
-    public void setRenewed(boolean renewed) { this.isCheckedOut = isCheckedOutd; }
+    public String toString() {
+        return ("Title: " + getTitle() + "\n" +
+                "Checkout Length:" + getCheckOutLength() + "\n" +
+                "Price: " + getBookPrice() + "\n" +
+                "Can be checked out: " + canBeCheckedOut() + "\n" +
+                "Number of Copies: " + getCopyNumber());
+    }
+
 }
+
