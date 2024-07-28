@@ -1,0 +1,13 @@
+package lms;
+
+public class MagazineReferenceBooksCopy {
+private int magazineRefId;
+public int getMagazineRefID(){
+    return magazineRefId;
+}
+
+public void setMagazineRefID(int magazineRefId){
+    this.magazineRefId = magazineRefId;
+}
+
+}
