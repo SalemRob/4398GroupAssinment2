@@ -37,7 +37,7 @@ public class WriteFile {
             for (String avItem : avItems.keySet()) {
                 fileWriter.write(avItems.get(avItem).getTitle() + "," +
                                  avItems.get(avItem).getCheckOutLength() + "," +
-                                 avItems.get(avItem).getBookPrice() + "," +
+                                 avItems.get(avItem).getAudioVisualPrice() + "," +
                                  avItems.get(avItem).canBeCheckedOut() + "," +
                                  avItems.get(avItem).getCopyNumber() + "\n");
             }
@@ -57,7 +57,7 @@ public class WriteFile {
             for (String refAndMagItem : refAndMagItems.keySet()) {
                 fileWriter.write(refAndMagItems.get(refAndMagItem).getTitle() + "," +
                                  refAndMagItems.get(refAndMagItem).getCheckOutLength() + "," +
-                                 refAndMagItems.get(refAndMagItem).getBookPrice() + "," +
+                                 refAndMagItems.get(refAndMagItem).getMagazineRefPrice() + "," +
                                  refAndMagItems.get(refAndMagItem).canBeCheckedOut() + "," +
                                  refAndMagItems.get(refAndMagItem).getCopyNumber() + "\n");
             }
