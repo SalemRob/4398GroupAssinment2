@@ -1,8 +1,13 @@
 package lms;
 
+
 public class AudioVisual extends Item {
-	public AudioVisual(String title, int checkOutLength, double audioVisualPrice, boolean canBeCheckedOut, int copyNumber) {
-        super(title, checkOutLength, audioVisualPrice, canBeCheckedOut, copyNumber);
-    }
+    private String format;
+
+    // Getters and Setters
+    public String getFormat() { return format; }
+    public void setFormat(String format) { this.format = format; }
 }
+
+
 
